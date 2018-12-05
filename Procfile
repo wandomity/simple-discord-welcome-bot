@@ -1,1 +1,1 @@
-worker: python typicalzone-welcome-bot.py
+worker: python simple-welcome-bot.py
