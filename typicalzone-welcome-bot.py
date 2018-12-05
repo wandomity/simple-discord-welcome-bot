@@ -22,7 +22,4 @@ async def on_ready():
     await client.change_presence(game=Game(name='you live', type = 3))
     print('Ready, Freddy') 
 
-
-@client.event
-async def on_message(message):
 client.run(os.getenv('TOKEN'))
